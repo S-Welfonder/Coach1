@@ -1,10 +1,14 @@
 package com.example.simon.coach1.modele;
 
+import com.example.simon.coach1.outils.Serializer;
+
+import java.io.Serializable;
+
 /**
  * Created by Simon on 30/12/2017.
  */
 
-public class Profil {
+public class Profil implements Serializable {
 
     // constantes
 
