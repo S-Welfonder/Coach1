@@ -16,6 +16,8 @@ import android.widget.Toast;
 import com.example.simon.coach1.controleur.Controle;
 import com.example.simon.coach1.modele.Profil;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     // propriétés
@@ -51,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         // gestion de l'événement sur le bouton calcul
         ecouteCalcul();
         // recupération du profil sérialisé
-        recupProfil();;
+         recupProfil();
+
     }
 
     /**
